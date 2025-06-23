@@ -7,7 +7,7 @@ document.getElementById('formAporte').addEventListener('submit', async (e) => {
     fecha_entrega: document.getElementById('fecha').value,
     hora_entrega: document.getElementById('hora').value
   };
-  await fetch('https://paec-53s0.onrender.com', {
+  await fetch('https://paec-53s0.onrender.com/aporte', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(data)
