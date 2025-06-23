@@ -1,0 +1,16 @@
+[
+  {
+    "participante": "Sofía García",
+    "kilos_reciclados": 2.5,
+    "lugar_recoleccion": "Patio Secundaria",
+    "fecha_entrega": "2025-06-20",
+    "hora_entrega": "10:30"
+  },
+  {
+    "participante": "Daniel Pérez",
+    "kilos_reciclados": 5,
+    "lugar_recoleccion": "Laboratorio",
+    "fecha_entrega": "2025-06-21",
+    "hora_entrega": "11:00"
+  }
+]
