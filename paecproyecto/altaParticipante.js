@@ -6,7 +6,7 @@ document.getElementById('formParticipante').addEventListener('submit', async (e)
     correo: document.getElementById('correo').value,
     telefono: document.getElementById('telefono').value
   };
-  await fetch('https://paec-53s0.onrender.com', {
+  await fetch('https://paec-53s0.onrender.com/participante', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(data)
