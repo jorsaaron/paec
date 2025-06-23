@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = 'mongodb+srv://aaron:123@clusterpaec.gjr9zg8.mongodb.net/?retryWrites=true&w=majority&appName=clusterpaec';
+const uri = 'mongodb+srv://aaron:123@clusterpaec.gjr9zg8.mongodb.net/?retryWrites=true&w=majority&appName=clusterpaec&tlsAllowInvalidCertificates=true';
 const client = new MongoClient(uri);
 
 async function connect() {
