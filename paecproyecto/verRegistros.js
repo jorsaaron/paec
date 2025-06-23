@@ -7,7 +7,7 @@ fetch('https://TUDOMINIO/render/o/3000/participantes')
   });
 function verAportes() {
   const nombre = document.getElementById('filtro').value;
-  fetch(`https://TUDOMINIO/render/o/3000/aportes?participante=${nombre}`)
+  fetch(`https://paec-53s0.onrender.com?participante=${nombre}`)
     .then(res => res.json())
     .then(data => {
       document.getElementById('aportes').innerHTML = data.map(a =>
